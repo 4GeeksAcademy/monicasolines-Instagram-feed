@@ -1,0 +1,73 @@
+body {
+    background-color: #ededef;
+    margin: auto;
+}
+
+#header {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.firstPost,
+.secondPost,
+.thirdPost,
+.fourthPost,
+.fifthPost {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 0;
+    width: 500px;
+    padding: 0px;
+    background-color: white;
+}
+
+.postHeader {
+    padding: 5px;
+    background-color: white;
+}
+
+.postHeader h5{
+    margin: 5px;
+    float: left;
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+
+.postHeader p{
+    margin: 5px;
+    float: right;
+    font-size: 13px;
+    color: darkgray;
+    font-family: "Montserrat";
+}
+
+.postImage img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.postFooter {
+    padding: 0;
+    margin: 0;
+}
+
+.postFooter p {
+   padding: 10px;
+   padding-right: 30px;
+   margin: 3px;
+   font-size: 14px;
+   line-height: 1;
+   font-family: "Montserrat";
+}
+
